@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Install dependencies", "type": "shell", "command": "npm ci", "problemMatcher": [] },
+    { "label": "Run in browser", "type": "shell", "command": "npm run web", "problemMatcher": [] },
+    { "label": "Start Expo", "type": "shell", "command": "npm start", "problemMatcher": [] },
+    { "label": "Type check", "type": "shell", "command": "npm run typecheck", "problemMatcher": "$tsc" },
+    { "label": "Run tests", "type": "shell", "command": "npm test", "problemMatcher": [] }
+  ]
+}

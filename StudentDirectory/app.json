@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "StudentDirectory \u2014 Manual 5",
+    "slug": "studentdirectory-manual-5",
+    "version": "1.0.0",
+    "scheme": "studentdirectory5",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
